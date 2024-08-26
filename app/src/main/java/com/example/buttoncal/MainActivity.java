@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 operator = button.getText().toString();
                 isOperatorClicked = true;
                 String a = String.valueOf(button.getText());
-                        Toast.makeText(MainActivity.this,"Clicked:"+a, Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this,"Clicked:"+a, Toast.LENGTH_SHORT).show();
 
             }
         };
